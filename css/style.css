@@ -133,10 +133,11 @@ body{
 
 .about .timing{
     position: relative;
+    background-repeat:initial ;
     top: -50px;
     width: 33%;
     padding: 20px;
-    background-image: url(../images/brush-big.jpg);
+    background-image: url(../images/connected.png);
 }
 
 .about .timing .overlay{
@@ -149,14 +150,13 @@ body{
     width: 50px;
 }
 
-.about .timing h3{
+.about .timing h4{
     color: var(--color-primary-light);
-    text-shadow: 0em 0em 0.4em var(--color-primary-light);
     text-transform: uppercase;
-    border-bottom: 1px solid var(--color-primary);
+    border-bottom: 1px solid var(--color-primary-light);
     width: fit-content;
-    margin: 0 auto 30px auto;
-    font-size: 30px;
+    margin: 0 auto 20px auto;
+    font-size: 20px;
 }
 
 .about .timing .text{
@@ -168,29 +168,30 @@ body{
     display: block;
     font-size: 25px;
     color: white;
-    margin-top: 10px;
+    margin-top: 1%;
 }
 
 .about .timing .text:last-of-type:after{
     content: '|';
+    margin: 1%;
     }
 
 .about .timing .text h4{
-    color: grey;
+    color: var(--color-primary-light);
     font-weight: 400;
     font-size: 15px;
 }
 
 .about .timing span{
-    color: white;
+    color: var(--color-primary-light);
     font-size: 15px;
     display: block;
 }
 
 .about .experience{
     width: 66%;
-    color: white;
-    margin-left: 7%;
+    color: var(--color-primary-light);
+    margin-left: 3%;
     margin-top: 100px;
 }
 
@@ -204,7 +205,7 @@ body{
     content: '';
     width: 100px;
     height: 3px;
-    background-color: #a38f78;
+    background-color: var(--color-primary-light);
     margin: 20px 0;
 }
 
@@ -215,8 +216,9 @@ body{
 
 .about .experience .text p{
     margin-bottom: 20px;
-    font-weight: 100;
     font-size: 17px;
+    font-weight: lighter;
+    color: var(--color-primary-light);
 } 
 
 /*****************
