@@ -136,7 +136,7 @@ body{
     background-repeat:initial ;
     top: -50px;
     width: 33%;
-    height: 135vh;
+    height: 128vh;
     padding: 20px;
     background-image: url(../images/tecnology.jpg);
 }
@@ -259,8 +259,8 @@ body{
 
 .services .box{
     border: 3px solid var(--color-primary);
-    padding: 50px 40px;
-    margin: 30px;
+    padding: 30px 20px;
+    margin: 15px;
 }
 
 .services .box h4{
@@ -282,17 +282,17 @@ body{
     padding: 100px 0;
     background-color: var(--color-primary);
     height: 100vh;
-    background-image: url(../images/chair-ic.png);
+    background-image: url(../images/cellphone.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: 300px;
+    background-size: 55vw;
 }
 
 .appointment h2{
     color: var(--color-primary-light);
     font-weight: 400;
     font-size: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-align: center;
 }
 
@@ -302,7 +302,7 @@ body{
 }
 
 .appointment form{
-    margin-top: 80px;
+    margin-top: 55px;
 }
 
 .appointment .personal-data{
@@ -375,10 +375,12 @@ body{
 .gallery .gallery-wrapper{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 110vh;
     width: 50vw;
     flex-wrap: wrap;
-    margin: 50px auto;
+    position: relative;
+    transform: translate(15vw, 15vh);
+
 }
 
 .gallery .gallery-wrapper div{
